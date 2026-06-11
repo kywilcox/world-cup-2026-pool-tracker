@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "source": "sample-demo-data",
+  "lastUpdated": "2026-06-11T12:00:00.000Z",
+  "competition": {
+    "name": "FIFA World Cup 2026",
+    "code": "WC"
+  },
+  "matches": [
+    {
+      "id": "sample-group-1",
+      "utcDate": "2026-06-11T19:00:00Z",
+      "stage": "GROUP_STAGE",
+      "group": "Group A",
+      "status": "FINISHED",
+      "homeTeam": { "name": "Mexico" },
+      "awayTeam": { "name": "South Africa" },
+      "score": { "winner": "HOME_TEAM", "fullTime": { "home": 2, "away": 1 } }
+    },
+    {
+      "id": "sample-group-2",
+      "utcDate": "2026-06-12T22:00:00Z",
+      "stage": "GROUP_STAGE",
+      "group": "Group B",
+      "status": "FINISHED",
+      "homeTeam": { "name": "USA" },
+      "awayTeam": { "name": "Uruguay" },
+      "score": { "winner": "DRAW", "fullTime": { "home": 1, "away": 1 } }
+    },
+    {
+      "id": "sample-group-3",
+      "utcDate": "2026-06-13T18:00:00Z",
+      "stage": "GROUP_STAGE",
+      "group": "Group C",
+      "status": "FINISHED",
+      "homeTeam": { "name": "Spain" },
+      "awayTeam": { "name": "Panama" },
+      "score": { "winner": "HOME_TEAM", "fullTime": { "home": 3, "away": 0 } }
+    },
+    {
+      "id": "sample-group-4",
+      "utcDate": "2026-06-14T20:00:00Z",
+      "stage": "GROUP_STAGE",
+      "group": "Group D",
+      "status": "TIMED",
+      "homeTeam": { "name": "France" },
+      "awayTeam": { "name": "Japan" },
+      "score": { "winner": null, "fullTime": { "home": null, "away": null } }
+    },
+    {
+      "id": "sample-r32-1",
+      "utcDate": "2026-07-01T19:00:00Z",
+      "stage": "ROUND_OF_32",
+      "status": "TIMED",
+      "homeTeam": { "name": "Brazil" },
+      "awayTeam": { "name": "South Korea" },
+      "score": { "winner": null, "fullTime": { "home": null, "away": null } }
+    },
+    {
+      "id": "sample-r16-1",
+      "utcDate": "2026-07-05T19:00:00Z",
+      "stage": "ROUND_OF_16",
+      "status": "TIMED",
+      "homeTeam": { "name": "France" },
+      "awayTeam": { "name": "Argentina" },
+      "score": { "winner": null, "fullTime": { "home": null, "away": null } }
+    }
+  ]
+}

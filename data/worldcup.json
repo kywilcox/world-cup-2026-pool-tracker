@@ -1,0 +1,2200 @@
+{
+  "schemaVersion": 1,
+  "source": "worldcup26.ir",
+  "providerUrl": "https://worldcup26.ir/get/games",
+  "lastUpdated": "2026-06-11T15:12:27.214Z",
+  "competition": {
+    "name": "FIFA World Cup 2026",
+    "code": "WC"
+  },
+  "resultSet": {
+    "count": 104,
+    "finished": 0
+  },
+  "matches": [
+    {
+      "id": "worldcup26-1",
+      "utcDate": "2026-06-11T13:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group A",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Mexico"
+      },
+      "awayTeam": {
+        "name": "South Africa"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-2",
+      "utcDate": "2026-06-11T20:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group A",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "South Korea"
+      },
+      "awayTeam": {
+        "name": "Czech Republic"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-3",
+      "utcDate": "2026-06-12T15:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group B",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Canada"
+      },
+      "awayTeam": {
+        "name": "Bosnia and Herzegovina"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-4",
+      "utcDate": "2026-06-12T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group D",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "United States"
+      },
+      "awayTeam": {
+        "name": "Paraguay"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-5",
+      "utcDate": "2026-06-13T21:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group C",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Haiti"
+      },
+      "awayTeam": {
+        "name": "Scotland"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-6",
+      "utcDate": "2026-06-13T21:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group D",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Australia"
+      },
+      "awayTeam": {
+        "name": "Turkey"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-7",
+      "utcDate": "2026-06-13T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group C",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Brazil"
+      },
+      "awayTeam": {
+        "name": "Morocco"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-8",
+      "utcDate": "2026-06-13T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group B",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Qatar"
+      },
+      "awayTeam": {
+        "name": "Switzerland"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-9",
+      "utcDate": "2026-06-14T19:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group E",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Ivory Coast"
+      },
+      "awayTeam": {
+        "name": "Ecuador"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-10",
+      "utcDate": "2026-06-14T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group E",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Germany"
+      },
+      "awayTeam": {
+        "name": "Curaçao"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-11",
+      "utcDate": "2026-06-14T15:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group F",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Netherlands"
+      },
+      "awayTeam": {
+        "name": "Japan"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-12",
+      "utcDate": "2026-06-14T20:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group F",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Sweden"
+      },
+      "awayTeam": {
+        "name": "Tunisia"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-13",
+      "utcDate": "2026-06-15T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group G",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Iran"
+      },
+      "awayTeam": {
+        "name": "New Zealand"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-14",
+      "utcDate": "2026-06-15T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group H",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Spain"
+      },
+      "awayTeam": {
+        "name": "Cape Verde"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-15",
+      "utcDate": "2026-06-15T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group G",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Belgium"
+      },
+      "awayTeam": {
+        "name": "Egypt"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-16",
+      "utcDate": "2026-06-15T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group H",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Saudi Arabia"
+      },
+      "awayTeam": {
+        "name": "Uruguay"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-17",
+      "utcDate": "2026-06-16T15:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group I",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "France"
+      },
+      "awayTeam": {
+        "name": "Senegal"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-18",
+      "utcDate": "2026-06-16T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group I",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Iraq"
+      },
+      "awayTeam": {
+        "name": "Norway"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-19",
+      "utcDate": "2026-06-16T20:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group J",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Argentina"
+      },
+      "awayTeam": {
+        "name": "Algeria"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-20",
+      "utcDate": "2026-06-16T21:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group J",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Austria"
+      },
+      "awayTeam": {
+        "name": "Jordan"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-21",
+      "utcDate": "2026-06-17T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group K",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Portugal"
+      },
+      "awayTeam": {
+        "name": "Democratic Republic of the Congo"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-22",
+      "utcDate": "2026-06-17T15:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group L",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "England"
+      },
+      "awayTeam": {
+        "name": "Croatia"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-23",
+      "utcDate": "2026-06-17T20:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group K",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Uzbekistan"
+      },
+      "awayTeam": {
+        "name": "Colombia"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-24",
+      "utcDate": "2026-06-17T19:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group L",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Ghana"
+      },
+      "awayTeam": {
+        "name": "Panama"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-25",
+      "utcDate": "2026-06-18T19:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group A",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Mexico"
+      },
+      "awayTeam": {
+        "name": "South Korea"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-26",
+      "utcDate": "2026-06-18T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group B",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Switzerland"
+      },
+      "awayTeam": {
+        "name": "Bosnia and Herzegovina"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-27",
+      "utcDate": "2026-06-18T15:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group B",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Canada"
+      },
+      "awayTeam": {
+        "name": "Qatar"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-28",
+      "utcDate": "2026-06-18T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group A",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Czech Republic"
+      },
+      "awayTeam": {
+        "name": "South Africa"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-29",
+      "utcDate": "2026-06-19T21:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group C",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Brazil"
+      },
+      "awayTeam": {
+        "name": "Haiti"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-30",
+      "utcDate": "2026-06-19T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group C",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Scotland"
+      },
+      "awayTeam": {
+        "name": "Morocco"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-31",
+      "utcDate": "2026-06-19T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group D",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "United States"
+      },
+      "awayTeam": {
+        "name": "Australia"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-32",
+      "utcDate": "2026-06-19T20:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group D",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Turkey"
+      },
+      "awayTeam": {
+        "name": "Paraguay"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-33",
+      "utcDate": "2026-06-20T16:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group E",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Germany"
+      },
+      "awayTeam": {
+        "name": "Ivory Coast"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-34",
+      "utcDate": "2026-06-20T19:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group E",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Ecuador"
+      },
+      "awayTeam": {
+        "name": "Curaçao"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-35",
+      "utcDate": "2026-06-20T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group F",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Netherlands"
+      },
+      "awayTeam": {
+        "name": "Sweden"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-36",
+      "utcDate": "2026-06-20T22:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group F",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Tunisia"
+      },
+      "awayTeam": {
+        "name": "Japan"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-37",
+      "utcDate": "2026-06-21T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group G",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Belgium"
+      },
+      "awayTeam": {
+        "name": "Iran"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-38",
+      "utcDate": "2026-06-21T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group G",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "New Zealand"
+      },
+      "awayTeam": {
+        "name": "Egypt"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-39",
+      "utcDate": "2026-06-21T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group H",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Spain"
+      },
+      "awayTeam": {
+        "name": "Saudi Arabia"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-40",
+      "utcDate": "2026-06-21T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group H",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Uruguay"
+      },
+      "awayTeam": {
+        "name": "Cape Verde"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-41",
+      "utcDate": "2026-06-22T17:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group I",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "France"
+      },
+      "awayTeam": {
+        "name": "Iraq"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-42",
+      "utcDate": "2026-06-22T20:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group I",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Norway"
+      },
+      "awayTeam": {
+        "name": "Senegal"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-43",
+      "utcDate": "2026-06-22T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group J",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Argentina"
+      },
+      "awayTeam": {
+        "name": "Austria"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-44",
+      "utcDate": "2026-06-22T20:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group J",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Jordan"
+      },
+      "awayTeam": {
+        "name": "Algeria"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-45",
+      "utcDate": "2026-06-23T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group K",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Portugal"
+      },
+      "awayTeam": {
+        "name": "Uzbekistan"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-46",
+      "utcDate": "2026-06-23T19:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group L",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Panama"
+      },
+      "awayTeam": {
+        "name": "Croatia"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-47",
+      "utcDate": "2026-06-23T20:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group K",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Colombia"
+      },
+      "awayTeam": {
+        "name": "Democratic Republic of the Congo"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-48",
+      "utcDate": "2026-06-23T16:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group L",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "England"
+      },
+      "awayTeam": {
+        "name": "Ghana"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-49",
+      "utcDate": "2026-06-24T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group C",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Scotland"
+      },
+      "awayTeam": {
+        "name": "Brazil"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-50",
+      "utcDate": "2026-06-24T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group C",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Morocco"
+      },
+      "awayTeam": {
+        "name": "Haiti"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-51",
+      "utcDate": "2026-06-24T19:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group A",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "South Africa"
+      },
+      "awayTeam": {
+        "name": "South Korea"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-52",
+      "utcDate": "2026-06-24T19:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group A",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Czech Republic"
+      },
+      "awayTeam": {
+        "name": "Mexico"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-53",
+      "utcDate": "2026-06-24T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group B",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Bosnia and Herzegovina"
+      },
+      "awayTeam": {
+        "name": "Qatar"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-54",
+      "utcDate": "2026-06-24T12:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group B",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Switzerland"
+      },
+      "awayTeam": {
+        "name": "Canada"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-55",
+      "utcDate": "2026-06-25T16:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group E",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Curaçao"
+      },
+      "awayTeam": {
+        "name": "Ivory Coast"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-56",
+      "utcDate": "2026-06-25T16:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group E",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Ecuador"
+      },
+      "awayTeam": {
+        "name": "Germany"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-57",
+      "utcDate": "2026-06-25T19:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group D",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Paraguay"
+      },
+      "awayTeam": {
+        "name": "Australia"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-58",
+      "utcDate": "2026-06-25T19:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group D",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Turkey"
+      },
+      "awayTeam": {
+        "name": "United States"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-59",
+      "utcDate": "2026-06-25T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group F",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Japan"
+      },
+      "awayTeam": {
+        "name": "Sweden"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-60",
+      "utcDate": "2026-06-25T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group F",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Tunisia"
+      },
+      "awayTeam": {
+        "name": "Netherlands"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-61",
+      "utcDate": "2026-06-26T15:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group I",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Senegal"
+      },
+      "awayTeam": {
+        "name": "Iraq"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-62",
+      "utcDate": "2026-06-26T15:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group I",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Norway"
+      },
+      "awayTeam": {
+        "name": "France"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-63",
+      "utcDate": "2026-06-26T20:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group G",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Egypt"
+      },
+      "awayTeam": {
+        "name": "Iran"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-64",
+      "utcDate": "2026-06-26T20:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group G",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "New Zealand"
+      },
+      "awayTeam": {
+        "name": "Belgium"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-65",
+      "utcDate": "2026-06-26T19:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group H",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Cape Verde"
+      },
+      "awayTeam": {
+        "name": "Saudi Arabia"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-66",
+      "utcDate": "2026-06-26T18:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group H",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Uruguay"
+      },
+      "awayTeam": {
+        "name": "Spain"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-67",
+      "utcDate": "2026-06-27T17:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group L",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Panama"
+      },
+      "awayTeam": {
+        "name": "England"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-68",
+      "utcDate": "2026-06-27T17:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group L",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Croatia"
+      },
+      "awayTeam": {
+        "name": "Ghana"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-69",
+      "utcDate": "2026-06-27T21:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group J",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Algeria"
+      },
+      "awayTeam": {
+        "name": "Austria"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-70",
+      "utcDate": "2026-06-27T21:00:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group J",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Jordan"
+      },
+      "awayTeam": {
+        "name": "Argentina"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-71",
+      "utcDate": "2026-06-27T19:30:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group K",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Colombia"
+      },
+      "awayTeam": {
+        "name": "Portugal"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-72",
+      "utcDate": "2026-06-27T19:30:00-05:00",
+      "stage": "GROUP_STAGE",
+      "group": "Group K",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Democratic Republic of the Congo"
+      },
+      "awayTeam": {
+        "name": "Uzbekistan"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-73",
+      "utcDate": "2026-06-28T12:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Runner-up Group A"
+      },
+      "awayTeam": {
+        "name": "Runner-up Group B"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-74",
+      "utcDate": "2026-06-29T16:30:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group E"
+      },
+      "awayTeam": {
+        "name": "3rd Group A/B/C/D/F"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-75",
+      "utcDate": "2026-06-29T19:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group F"
+      },
+      "awayTeam": {
+        "name": "Runner-up Group C"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-76",
+      "utcDate": "2026-06-29T12:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group C"
+      },
+      "awayTeam": {
+        "name": "Runner-up Group F"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-77",
+      "utcDate": "2026-06-30T17:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group I"
+      },
+      "awayTeam": {
+        "name": "3rd Group C/D/F/G/H"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-78",
+      "utcDate": "2026-06-30T12:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Runner-up Group E"
+      },
+      "awayTeam": {
+        "name": "Runner-up Group I"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-79",
+      "utcDate": "2026-06-30T19:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group A"
+      },
+      "awayTeam": {
+        "name": "3rd Group C/E/F/H/I"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-80",
+      "utcDate": "2026-07-01T12:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group L"
+      },
+      "awayTeam": {
+        "name": "3rd Group E/H/I/J/K"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-81",
+      "utcDate": "2026-07-01T17:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group D"
+      },
+      "awayTeam": {
+        "name": "3rd Group B/E/F/I/J"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-82",
+      "utcDate": "2026-07-01T13:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group G"
+      },
+      "awayTeam": {
+        "name": "3rd Group A/E/H/I/J"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-83",
+      "utcDate": "2026-07-02T19:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Runner-up Group K"
+      },
+      "awayTeam": {
+        "name": "Runner-up Group L"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-84",
+      "utcDate": "2026-07-02T12:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group H"
+      },
+      "awayTeam": {
+        "name": "Runner-up Group J"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-85",
+      "utcDate": "2026-07-02T20:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group B"
+      },
+      "awayTeam": {
+        "name": "3rd Group E/F/G/I/J"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-86",
+      "utcDate": "2026-07-03T18:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group J"
+      },
+      "awayTeam": {
+        "name": "Runner-up Group H"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-87",
+      "utcDate": "2026-07-03T20:30:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Group K"
+      },
+      "awayTeam": {
+        "name": "3rd Group D/E/I/J/L"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-88",
+      "utcDate": "2026-07-03T13:00:00-05:00",
+      "stage": "ROUND_OF_32",
+      "group": "Group R32",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Runner-up Group D"
+      },
+      "awayTeam": {
+        "name": "Runner-up Group G"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-89",
+      "utcDate": "2026-07-04T17:00:00-05:00",
+      "stage": "ROUND_OF_16",
+      "group": "Group R16",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 74"
+      },
+      "awayTeam": {
+        "name": "Winner Match 77"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-90",
+      "utcDate": "2026-07-04T12:00:00-05:00",
+      "stage": "ROUND_OF_16",
+      "group": "Group R16",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 73"
+      },
+      "awayTeam": {
+        "name": "Winner Match 75"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-91",
+      "utcDate": "2026-07-05T16:00:00-05:00",
+      "stage": "ROUND_OF_16",
+      "group": "Group R16",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 76"
+      },
+      "awayTeam": {
+        "name": "Winner Match 78"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-92",
+      "utcDate": "2026-07-05T18:00:00-05:00",
+      "stage": "ROUND_OF_16",
+      "group": "Group R16",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 79"
+      },
+      "awayTeam": {
+        "name": "Winner Match 80"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-93",
+      "utcDate": "2026-07-06T14:00:00-05:00",
+      "stage": "ROUND_OF_16",
+      "group": "Group R16",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 83"
+      },
+      "awayTeam": {
+        "name": "Winner Match 84"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-94",
+      "utcDate": "2026-07-06T17:00:00-05:00",
+      "stage": "ROUND_OF_16",
+      "group": "Group R16",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 81"
+      },
+      "awayTeam": {
+        "name": "Winner Match 82"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-95",
+      "utcDate": "2026-07-07T12:00:00-05:00",
+      "stage": "ROUND_OF_16",
+      "group": "Group R16",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 86"
+      },
+      "awayTeam": {
+        "name": "Winner Match 88"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-96",
+      "utcDate": "2026-07-07T13:00:00-05:00",
+      "stage": "ROUND_OF_16",
+      "group": "Group R16",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 85"
+      },
+      "awayTeam": {
+        "name": "Winner Match 87"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-97",
+      "utcDate": "2026-07-09T16:00:00-05:00",
+      "stage": "QUARTERFINAL",
+      "group": "Group QF",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 89"
+      },
+      "awayTeam": {
+        "name": "Winner Match 90"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-98",
+      "utcDate": "2026-07-10T12:00:00-05:00",
+      "stage": "QUARTERFINAL",
+      "group": "Group QF",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 93"
+      },
+      "awayTeam": {
+        "name": "Winner Match 94"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-99",
+      "utcDate": "2026-07-11T17:00:00-05:00",
+      "stage": "QUARTERFINAL",
+      "group": "Group QF",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 91"
+      },
+      "awayTeam": {
+        "name": "Winner Match 92"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-100",
+      "utcDate": "2026-07-11T20:00:00-05:00",
+      "stage": "QUARTERFINAL",
+      "group": "Group QF",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 95"
+      },
+      "awayTeam": {
+        "name": "Winner Match 96"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-101",
+      "utcDate": "2026-07-14T14:00:00-05:00",
+      "stage": "SEMIFINAL",
+      "group": "Group SF",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 97"
+      },
+      "awayTeam": {
+        "name": "Winner Match 98"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-102",
+      "utcDate": "2026-07-15T15:00:00-05:00",
+      "stage": "SEMIFINAL",
+      "group": "Group SF",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 99"
+      },
+      "awayTeam": {
+        "name": "Winner Match 100"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-103",
+      "utcDate": "2026-07-18T17:00:00-05:00",
+      "stage": "THIRD",
+      "group": "Group 3RD",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Loser Match 101"
+      },
+      "awayTeam": {
+        "name": "Loser Match 102"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "worldcup26-104",
+      "utcDate": "2026-07-19T15:00:00-05:00",
+      "stage": "FINAL",
+      "group": "Group FINAL",
+      "status": "TIMED",
+      "minute": "notstarted",
+      "homeTeam": {
+        "name": "Winner Match 101"
+      },
+      "awayTeam": {
+        "name": "Winner Match 102"
+      },
+      "score": {
+        "winner": null,
+        "fullTime": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>World Cup 2026 Pool Tracker</title>
+    <meta
+      name="description"
+      content="Live World Cup 2026 office pool standings, scoring rules, drafted teams, and match points."
+    />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__overlay">
+        <p class="eyebrow">World Cup 2026 office pool</p>
+        <h1>Bracket Points Tracker</h1>
+        <p class="hero__copy">
+          Drafted teams, match results, and knockout bonuses rolled into one live scoreboard.
+        </p>
+        <div class="hero__actions">
+          <a href="#standings" class="button button--primary">View standings</a>
+          <a href="#rules" class="button button--ghost">Scoring rules</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="status-band" aria-live="polite">
+        <div>
+          <span class="status-label">Data source</span>
+          <strong id="sourceName">Loading</strong>
+        </div>
+        <div>
+          <span class="status-label">Last updated</span>
+          <strong id="lastUpdated">Loading</strong>
+        </div>
+        <div>
+          <span class="status-label">Matches scored</span>
+          <strong id="matchesScored">0</strong>
+        </div>
+      </section>
+
+      <section class="leader-band" id="standings">
+        <div class="section-heading">
+          <p class="eyebrow">Standings</p>
+          <h2>Current Race</h2>
+        </div>
+        <div id="leaderSummary" class="leader-summary"></div>
+        <div id="standingsTable" class="standings-table"></div>
+      </section>
+
+      <section class="content-band">
+        <div class="section-heading">
+          <p class="eyebrow">Draft board</p>
+          <h2>Teams By Player</h2>
+        </div>
+        <div id="ownerGrid" class="owner-grid"></div>
+      </section>
+
+      <section class="content-band content-band--split">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Match log</p>
+            <h2>Recent And Upcoming</h2>
+          </div>
+          <div id="matchList" class="match-list"></div>
+        </div>
+        <aside id="rules" class="rules-panel" aria-labelledby="rulesTitle">
+          <p class="eyebrow">Rules</p>
+          <h2 id="rulesTitle">Points System</h2>
+          <ul id="rulesList"></ul>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Unofficial pool tracker. No FIFA, team crest, or federation branding is used.
+      </p>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

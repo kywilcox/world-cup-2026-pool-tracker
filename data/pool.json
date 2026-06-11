@@ -1,0 +1,78 @@
+{
+  "name": "World Cup 2026 Office Pool",
+  "rules": [
+    { "id": "group_win", "label": "Group Stage Win", "points": 3 },
+    { "id": "group_draw", "label": "Group Stage Draw", "points": 1 },
+    { "id": "round_of_32", "label": "Round of 32 appearance", "points": 5 },
+    { "id": "round_of_16", "label": "Round of 16 appearance", "points": 8 },
+    { "id": "quarterfinal", "label": "Quarterfinal appearance", "points": 12 },
+    { "id": "semifinal", "label": "Semifinal appearance", "points": 18 },
+    { "id": "final", "label": "Final appearance", "points": 25 },
+    { "id": "champion", "label": "World Cup Champion", "points": 40 }
+  ],
+  "owners": [
+    {
+      "name": "Chase",
+      "color": "#ef1f28",
+      "teams": ["Portugal", "Mexico", "Turkey", "New Zealand", "Cape Verde", "Jordan"]
+    },
+    {
+      "name": "Caul",
+      "color": "#155bc3",
+      "teams": ["France", "Norway", "Japan", "Scotland", "Saudi Arabia", "Qatar"]
+    },
+    {
+      "name": "Byron",
+      "color": "#f28a92",
+      "textColor": "#17211d",
+      "teams": ["Spain", "Colombia", "Morocco", "Panama", "Iran", "Congo"]
+    },
+    {
+      "name": "Bailey",
+      "color": "#4d7d38",
+      "teams": ["Brazil", "Croatia", "Uruguay", "Australia", "Ivory Coast", "Paraguay"]
+    },
+    {
+      "name": "Rylan",
+      "color": "#f4f4f1",
+      "textColor": "#17211d",
+      "teams": ["England", "Switzerland", "Ecuador", "Ghana", "Egypt", "Algeria"]
+    },
+    {
+      "name": "Reid",
+      "color": "#76aeb5",
+      "textColor": "#17211d",
+      "teams": ["Argentina", "Belgium", "Senegal", "Austria", "Iraq", "Tunisia"]
+    },
+    {
+      "name": "Rodney",
+      "color": "#ff333c",
+      "teams": ["Germany", "Curacao", "Serbia", "Czechia", "Haiti", "South Africa"]
+    },
+    {
+      "name": "Preston",
+      "color": "#ff990f",
+      "textColor": "#17211d",
+      "teams": ["Netherlands", "USA", "South Korea", "Canada", "Bosnia", "Uzbekistan"]
+    }
+  ],
+  "aliases": {
+    "Bosnia and Herzegovina": "Bosnia",
+    "Cape Verde Islands": "Cape Verde",
+    "Cote d'Ivoire": "Ivory Coast",
+    "Cote d Ivoire": "Ivory Coast",
+    "Côte d'Ivoire": "Ivory Coast",
+    "Curaçao": "Curacao",
+    "Czech Republic": "Czechia",
+    "DR Congo": "Congo",
+    "Congo DR": "Congo",
+    "IR Iran": "Iran",
+    "Korea Republic": "South Korea",
+    "Korea Rep": "South Korea",
+    "Netherlands": "Netherlands",
+    "Türkiye": "Turkey",
+    "United States": "USA",
+    "United States of America": "USA",
+    "USMNT": "USA"
+  }
+}
