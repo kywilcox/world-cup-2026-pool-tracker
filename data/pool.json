@@ -47,7 +47,7 @@
     {
       "name": "Rodney",
       "color": "#ff333c",
-      "teams": ["Germany", "Curacao", "Serbia", "Czechia", "Haiti", "South Africa"]
+      "teams": ["Germany", "Curacao", "Sweden", "Czechia", "Haiti", "South Africa"]
     },
     {
       "name": "Preston",
@@ -71,7 +71,6 @@
     "Korea Republic": "South Korea",
     "Korea Rep": "South Korea",
     "Netherlands": "Netherlands",
-    "Sweden": "Serbia",
     "Türkiye": "Turkey",
     "United States": "USA",
     "United States of America": "USA",
