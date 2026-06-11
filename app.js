@@ -1,4 +1,4 @@
-import { calculateScoreboard } from "./scoring.js";
+import { calculateScoreboard } from "./scoring.js?v=20260611b";
 
 const DATA_PARAM = new URLSearchParams(window.location.search).get("data");
 const DEMO_PARAM = new URLSearchParams(window.location.search).get("demo");
