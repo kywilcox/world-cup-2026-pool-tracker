@@ -152,7 +152,15 @@ function renderOwners(scoreboard) {
 }
 
 function renderMatches(scoreboard) {
-  const matches = scoreboard.matches.slice(0, 12);
+  const now = Date.now();
+  const datedMatches = scoreboard.matches.filter((match) => match.utcDate);
+  const upcoming = datedMatches
+    .filter((match) => new Date(match.utcDate).getTime() >= now || match.status === "IN_PLAY")
+    .sort((a, b) => new Date(a.utcDate).getTime() - new Date(b.utcDate).getTime());
+  const recent = datedMatches
+    .filter((match) => new Date(match.utcDate).getTime() < now && match.status !== "IN_PLAY")
+    .sort((a, b) => new Date(b.utcDate).getTime() - new Date(a.utcDate).getTime());
+  const matches = [...upcoming, ...recent].slice(0, 12);
   if (!matches.length) {
     elements.matchList.innerHTML = `
       <div class="empty-state">

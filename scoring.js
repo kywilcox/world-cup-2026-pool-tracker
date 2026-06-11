@@ -23,7 +23,8 @@ const STAGE_LABELS = {
   ROUND_OF_16: "Round of 16",
   QUARTERFINAL: "Quarterfinal",
   SEMIFINAL: "Semifinal",
-  FINAL: "Final"
+  FINAL: "Final",
+  THIRD: "Third Place"
 };
 
 function key(value) {
@@ -88,6 +89,13 @@ export function canonicalTeamName(name, pool) {
 
 export function normalizeStage(match) {
   const raw = key(match.stage || match.round || match.matchday || "");
+  if (String(match.stage || "").toUpperCase() === "GROUP_STAGE") return "GROUP_STAGE";
+  if (String(match.stage || "").toUpperCase() === "ROUND_OF_32") return "ROUND_OF_32";
+  if (String(match.stage || "").toUpperCase() === "ROUND_OF_16") return "ROUND_OF_16";
+  if (String(match.stage || "").toUpperCase() === "QUARTERFINAL") return "QUARTERFINAL";
+  if (String(match.stage || "").toUpperCase() === "SEMIFINAL") return "SEMIFINAL";
+  if (String(match.stage || "").toUpperCase() === "FINAL") return "FINAL";
+  if (String(match.stage || "").toUpperCase() === "THIRD") return "THIRD";
   if (raw.includes("group")) return "GROUP_STAGE";
   if (match.group && !raw.includes("last") && !raw.includes("round")) return "GROUP_STAGE";
   if (raw.includes("last 32") || raw.includes("round of 32") || raw.includes("round 32")) {
@@ -118,6 +126,19 @@ function titleCase(value) {
 
 function rawTeamName(team) {
   return team?.name || team?.shortName || team?.tla || "";
+}
+
+function isPlaceholderTeamName(name) {
+  const normalized = key(name);
+  return (
+    !normalized ||
+    normalized === "tbd" ||
+    normalized.startsWith("winner match") ||
+    normalized.startsWith("loser match") ||
+    normalized.startsWith("winner group") ||
+    normalized.startsWith("runner up group") ||
+    normalized.startsWith("3rd group")
+  );
 }
 
 function isFinished(match) {
@@ -182,7 +203,7 @@ export function calculateScoreboard(pool, feed) {
 
   function resolveTeam(rawName) {
     const canonical = indexes.aliases.get(key(rawName));
-    if (!canonical && rawName && rawName !== "TBD") {
+    if (!canonical && rawName && !isPlaceholderTeamName(rawName)) {
       unknownTeams.add(rawName);
     }
     return canonical || null;
@@ -270,7 +291,7 @@ export function calculateScoreboard(pool, feed) {
     stats: {
       matchesTotal: matches.length,
       matchesFinished: matches.filter(isFinished).length,
-      matchesScored: matches.filter((match) => isFinished(match) || APPEARANCE_BY_STAGE[normalizeStage(match)]).length,
+      matchesScored: owners.reduce((sum, owner) => sum + owner.total, 0),
       unknownTeams: [...unknownTeams].sort()
     }
   };
