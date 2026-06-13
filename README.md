@@ -38,7 +38,7 @@ Then open:
 
 ## Automatic Updates
 
-The default updater uses the public WorldCup26 API at `https://worldcup26.ir/get/games`, so no token is required for the basic live tracker. The scheduled job runs server-side in GitHub Actions and deploys the already-generated JSON to GitHub Pages. The browser re-checks `data/worldcup.json` every 60 seconds while the page is open.
+The browser fetches the public WorldCup26 API at `https://worldcup26.ir/get/games` directly, so no token is required for the live tracker. It refreshes that API every 60 seconds while the page is open. The scheduled GitHub Actions job still refreshes and deploys `data/worldcup.json`, but that deployed JSON is now only the fallback if the direct browser fetch fails.
 
 `football-data.org` remains supported as an optional fallback if you later add a `FOOTBALL_DATA_TOKEN` secret and run:
 

@@ -13,7 +13,7 @@ async function copyFile(path) {
 await fs.rm(distRoot, { recursive: true, force: true });
 await fs.mkdir(distRoot, { recursive: true });
 
-for (const path of ["index.html", "styles.css", "app.js", "scoring.js", "assets", "data"]) {
+for (const path of ["index.html", "styles.css", "app.js", "scoring.js", "live-feed.js", "assets", "data"]) {
   await copyFile(path);
 }
 

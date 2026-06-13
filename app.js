@@ -1,4 +1,5 @@
-import { calculateScoreboard } from "./scoring.js?v=20260611b";
+import { loadWorldCup26Feed } from "./live-feed.js?v=20260612a";
+import { calculateScoreboard } from "./scoring.js?v=20260612a";
 
 const DATA_PARAM = new URLSearchParams(window.location.search).get("data");
 const DEMO_PARAM = new URLSearchParams(window.location.search).get("demo");
@@ -213,6 +214,19 @@ async function loadJson(path) {
   return response.json();
 }
 
+async function loadFeed() {
+  if (DATA_PARAM === "sample" || DEMO_PARAM === "1") {
+    return loadJson(FEED_PATH);
+  }
+
+  try {
+    return await loadWorldCup26Feed();
+  } catch (error) {
+    console.warn("Falling back to deployed World Cup feed", error);
+    return loadJson(`${FEED_PATH}?t=${Date.now()}`);
+  }
+}
+
 function render(pool, feed) {
   const scoreboard = calculateScoreboard(pool, feed);
   renderStatus(feed, scoreboard);
@@ -229,7 +243,7 @@ async function refreshFeed() {
   }
 
   try {
-    activeFeed = await loadJson(`${FEED_PATH}?t=${Date.now()}`);
+    activeFeed = await loadFeed();
     render(poolData, activeFeed);
   } catch (error) {
     console.warn("Could not refresh match feed", error);
@@ -238,7 +252,7 @@ async function refreshFeed() {
 
 async function main() {
   try {
-    const [pool, feed] = await Promise.all([loadJson("./data/pool.json"), loadJson(FEED_PATH)]);
+    const [pool, feed] = await Promise.all([loadJson("./data/pool.json"), loadFeed()]);
     poolData = pool;
     activeFeed = feed;
     render(poolData, activeFeed);
