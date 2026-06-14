@@ -1,11 +1,9 @@
-name: Update and deploy pool tracker
+name: Deploy pool tracker
 
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
-  schedule:
-    - cron: "*/5 * * * *"
 
 permissions:
   contents: read
@@ -30,11 +28,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-
-      - name: Update World Cup data
-        env:
-          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-        run: node scripts/update-worldcup-data.mjs
 
       - name: Validate data
         run: node scripts/validate-data.mjs

@@ -8,7 +8,7 @@ Standalone static tracker for the World Cup 2026 office pool. It is separate fro
 - Scores the drafted teams from `data/pool.json`.
 - Reads match data from `data/worldcup.json`.
 - Supports a demo feed with `?data=sample`.
-- Includes a scheduled GitHub Pages workflow that can refresh scores every 5 minutes.
+- Includes a GitHub Pages workflow for code deployments.
 
 ## Scoring Rules
 
@@ -38,7 +38,7 @@ Then open:
 
 ## Automatic Updates
 
-The browser fetches the public WorldCup26 API at `https://worldcup26.ir/get/games` directly, so no token is required for the live tracker. It refreshes that API every 60 seconds while the page is open. The scheduled GitHub Actions job still refreshes and deploys `data/worldcup.json`, but that deployed JSON is now only the fallback if the direct browser fetch fails.
+The browser fetches the public WorldCup26 API at `https://worldcup26.ir/get/games` directly, so no token is required for the live tracker. It refreshes that API every 60 seconds while the page is open. The checked-in `data/worldcup.json` remains only a fallback if the direct browser fetch fails.
 
 `football-data.org` remains supported as an optional fallback if you later add a `FOOTBALL_DATA_TOKEN` secret and run:
 
